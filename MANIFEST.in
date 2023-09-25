@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include qp_issues_notification *.css
+recursive-include qp_issues_notification *.csv
+recursive-include qp_issues_notification *.html
+recursive-include qp_issues_notification *.ico
+recursive-include qp_issues_notification *.js
+recursive-include qp_issues_notification *.json
+recursive-include qp_issues_notification *.md
+recursive-include qp_issues_notification *.png
+recursive-include qp_issues_notification *.py
+recursive-include qp_issues_notification *.svg
+recursive-include qp_issues_notification *.txt
+recursive-exclude qp_issues_notification *.pyc
