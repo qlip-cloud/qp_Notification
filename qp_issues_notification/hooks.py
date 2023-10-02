@@ -85,6 +85,10 @@ app_license = "MIT"
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
+override_doctype_class = {
+    'Notification': 'qp_issues_notification.qp_issues_notification.override.notification.CustomNotification'
+}
+
 # Document Events
 # ---------------
 # Hook on document methods and events
